@@ -20,7 +20,7 @@ namespace Test_Game
         public TestGame()
         {
             graphics = new GraphicsDeviceManager(this);
-            
+            Content.RootDirectory = "Zelda.Content";
             //Set Window size to be NES resolution x 2 (since all textures are already scaled)
             graphics.PreferredBackBufferHeight = 720; // 448;
             graphics.PreferredBackBufferWidth = 1280; //512;

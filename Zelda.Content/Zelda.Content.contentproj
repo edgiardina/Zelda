@@ -70,119 +70,115 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Sprites\Items\bait.gif">
-      <Name>bait</Name>
-      <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bluecandle.gif">
+    <None Include="Sprites\Items\bluecandle.gif">
       <Name>bluecandle</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bluepotion.gif">
+    </None>
+    <None Include="Sprites\Items\bluepotion.gif">
       <Name>bluepotion</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bluering.gif">
+    </None>
+    <None Include="Sprites\Items\bluering.gif">
       <Name>bluering</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bomb.gif">
+    </None>
+    <None Include="Sprites\Items\bomb.gif">
       <Name>bomb</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\boomerang.gif">
+    </None>
+    <None Include="Sprites\Items\boomerang.gif">
       <Name>boomerang</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bow.gif">
+    </None>
+    <None Include="Sprites\Items\bow.gif">
       <Name>bow</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\bracelet.gif">
+    </None>
+    <None Include="Sprites\Items\bracelet.gif">
       <Name>bracelet</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\heart.png">
+    </None>
+    <None Include="Sprites\Items\heart.png">
       <Name>heart</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Items\heartcontainer.gif">
+    </None>
+    <None Include="Sprites\Items\heartcontainer.gif">
       <Name>heartcontainer</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\ladder.gif">
+    </None>
+    <None Include="Sprites\Items\ladder.gif">
       <Name>ladder</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\letter.gif">
+    </None>
+    <None Include="Sprites\Items\letter.gif">
       <Name>letter</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magicalboomerang.gif">
+    </None>
+    <None Include="Sprites\Items\magicalboomerang.gif">
       <Name>magicalboomerang</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magicalshield.gif">
+    </None>
+    <None Include="Sprites\Items\magicalshield.gif">
       <Name>magicalshield</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magicalsword.gif">
+    </None>
+    <None Include="Sprites\Items\magicalsword.gif">
       <Name>magicalsword</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magicbook.gif">
+    </None>
+    <None Include="Sprites\Items\magicbook.gif">
       <Name>magicbook</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magickey.gif">
+    </None>
+    <None Include="Sprites\Items\magickey.gif">
       <Name>magickey</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\magicwand.gif">
+    </None>
+    <None Include="Sprites\Items\magicwand.gif">
       <Name>magicwand</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\map2.gif">
+    </None>
+    <None Include="Sprites\Items\map2.gif">
       <Name>map2</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\raft.gif">
+    </None>
+    <None Include="Sprites\Items\raft.gif">
       <Name>raft</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\recorder.gif">
+    </None>
+    <None Include="Sprites\Items\recorder.gif">
       <Name>recorder</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\redcandle.gif">
+    </None>
+    <None Include="Sprites\Items\redcandle.gif">
       <Name>redcandle</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\redpotion.gif">
+    </None>
+    <None Include="Sprites\Items\redpotion.gif">
       <Name>redpotion</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\redring.gif">
+    </None>
+    <None Include="Sprites\Items\redring.gif">
       <Name>redring</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\silverarrows.gif">
+    </None>
+    <None Include="Sprites\Items\silverarrows.gif">
       <Name>silverarrows</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\sword.gif">
+    </None>
+    <None Include="Sprites\Items\sword.gif">
       <Name>sword</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Items\whitesword.gif">
+    </None>
+    <None Include="Sprites\Items\whitesword.gif">
       <Name>whitesword</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
-    <Compile Include="Sprites\Link %28Normal%29 %28Back%29.gif">
+    </None>
+    <None Include="Sprites\Link %28Normal%29 %28Back%29.gif">
       <Name>Link %28Normal%29 %28Back%29</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
+    </None>
     <Compile Include="Sprites\Link-Left.png">
       <Name>Link-Left</Name>
       <Importer>TextureImporter</Importer>
@@ -203,10 +199,10 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Sprites\LinkNormal%29 %28Left%29.gif">
+    <None Include="Sprites\LinkNormal%29 %28Left%29.gif">
       <Name>LinkNormal%29 %28Left%29</Name>
       <Importer>TextureImporter</Importer>
-    </Compile>
+    </None>
     <Compile Include="Sprites\Link\link_attack_down.bmp">
       <Name>link_attack_down</Name>
       <Importer>TextureImporter</Importer>
@@ -262,6 +258,25 @@
       <Name>SpriteFont1</Name>
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sprites\Items\arrows.gif">
+      <Name>arrows</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Items\bait.png">
+      <Name>bait</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Items\5 Rupees.png">
+      <Name>5 Rupees</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
