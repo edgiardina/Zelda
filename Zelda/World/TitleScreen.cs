@@ -38,7 +38,7 @@ namespace Test_Game
         public override void Initialize()
         {
             // TODO: Add your initialization code here
-            Music.Initialize();
+            //Music.Initialize();
 
 
             base.Initialize();
@@ -48,7 +48,7 @@ namespace Test_Game
         {
             int width = GraphicsDevice.Viewport.Width / 2;
             int height = GraphicsDevice.Viewport.Height / 2;
-            SpriteContainer.Begin(SpriteBlendMode.Additive);
+            SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.Additive);
            
             SpriteContainer.Draw(this.Texture, new Vector2(width, height), null, Color.White, 0, new Vector2(this.Texture.Width / 2, this.Texture.Height / 2), 1, SpriteEffects.None, 0.0f);
             SpriteContainer.End();

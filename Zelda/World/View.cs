@@ -30,7 +30,7 @@ namespace Test_Game
         /// </summary>
         public MapType Type;
 
-        protected Cue MusicManager;
+        //protected Cue MusicManager;
 
         public View(Microsoft.Xna.Framework.Game game)
             : base(game)

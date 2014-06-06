@@ -79,7 +79,7 @@ namespace Test_Game.Characters
         public override void Draw(GameTime gameTime)
         {
 
-            SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+            SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             CurrentSprite.Draw(SpriteContainer, this.Position, this.ObjectDirection);
             SpriteContainer.End();
 

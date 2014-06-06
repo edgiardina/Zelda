@@ -1,12 +1,5 @@
-using System;
-using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.Content;
 
 namespace Test_Game.Menu
 {
@@ -63,7 +56,7 @@ namespace Test_Game.Menu
         {
             int width = GraphicsDevice.Viewport.Width / 2;
             int height = GraphicsDevice.Viewport.Height / 2;
-            SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+            SpriteContainer.Begin();
 
             Vector4 NewColor = ColorToFade.ToVector4();
             //Set Transparency
@@ -72,10 +65,10 @@ namespace Test_Game.Menu
             SpriteContainer.End();
             base.Draw(gameTime);
         }
-
-        protected override void LoadGraphicsContent(bool loadAllContent)
+        
+        protected override void LoadContent()
         {
-            FadeTexture = new Texture2D(GraphicsDevice, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, 1, TextureUsage.None, SurfaceFormat.Color);
+            FadeTexture = new Texture2D(GraphicsDevice, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, true, SurfaceFormat.Color);
             int PixelCount = GraphicsDevice.Viewport.Width * GraphicsDevice.Viewport.Height;
             Color[] PixelData = new Color[PixelCount];
             //Random RndNum = new Random();
@@ -87,7 +80,7 @@ namespace Test_Game.Menu
 
             FadeTexture.SetData<Color>(PixelData);
 
-            base.LoadGraphicsContent(loadAllContent);
+            base.LoadContent();
         }
     }
 }

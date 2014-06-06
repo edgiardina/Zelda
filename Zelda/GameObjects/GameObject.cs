@@ -61,7 +61,7 @@ namespace Test_Game
 
         public virtual void Draw(GameTime gameTime)
         {
-            SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+            SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             CurrentSprite.Draw(SpriteContainer, this.Position);
             SpriteContainer.End();           
         }

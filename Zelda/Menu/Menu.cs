@@ -66,7 +66,7 @@ namespace Test_Game.Menus
         public override void Draw(GameTime gameTime)
         {
 
-            SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+            SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             //SpriteContainer.Draw(this.Texture, new Rectangle(0, 0, 548, 480), Color.White);            
             SpriteContainer.Draw(this.CursorTexture, new Rectangle(CursorPosition.X - 50, CursorPosition.Y, CursorTexture.Width, CursorTexture.Height), Color.White);
             foreach (MenuOption M in Options)

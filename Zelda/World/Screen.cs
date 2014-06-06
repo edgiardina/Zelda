@@ -57,7 +57,7 @@ namespace Test_Game.World
         public override void Draw(GameTime gameTime)
         {
 
-            SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+            SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
             foreach (ScreenTile Tile in Tiles)
             {
                 SpriteContainer.Draw(Tile.Texture, new Rectangle(Tile.Position.X, Tile.Position.Y, Tile.Texture.Height * 2, Tile.Texture.Width * 2), Color.White);

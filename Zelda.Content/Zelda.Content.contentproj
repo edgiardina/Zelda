@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{6BE06F5F-2E69-4C75-8E11-76DCB7A853F0}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Zelda.Content</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\Music\Overworld.wav">
+      <Name>Overworld</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\SoundFx\LOZ_Candle.wav">
+      <Name>LOZ_Candle</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Enemies\Octorok\Octorok_down.bmp">
+      <Name>Octorok_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Enemies\Octorok\Octorok_down.png">
+      <Name>Octorok_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\Link-Left.png">
+      <Name>Link-Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\Link-Right.png">
+      <Name>Link-Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\Link-Up.png">
+      <Name>Link-Up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\Link.PNG">
+      <Name>Link</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\link_attack_down.bmp">
+      <Name>link_attack_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Hero\link_attack_up.bmp">
+      <Name>link_attack_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Items\5 Rupees.gif">
+      <Name>5 Rupees</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\arrows.gif">
+      <Name>arrows</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bait.gif">
+      <Name>bait</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bluecandle.gif">
+      <Name>bluecandle</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bluepotion.gif">
+      <Name>bluepotion</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bluering.gif">
+      <Name>bluering</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bomb.gif">
+      <Name>bomb</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\boomerang.gif">
+      <Name>boomerang</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bow.gif">
+      <Name>bow</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\bracelet.gif">
+      <Name>bracelet</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\Heart.gif">
+      <Name>Heart</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\heart.png">
+      <Name>heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Items\heartcontainer.gif">
+      <Name>heartcontainer</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\ladder.gif">
+      <Name>ladder</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\letter.gif">
+      <Name>letter</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magicalboomerang.gif">
+      <Name>magicalboomerang</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magicalshield.gif">
+      <Name>magicalshield</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magicalsword.gif">
+      <Name>magicalsword</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magicbook.gif">
+      <Name>magicbook</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magickey.gif">
+      <Name>magickey</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\magicwand.gif">
+      <Name>magicwand</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\map2.gif">
+      <Name>map2</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\raft.gif">
+      <Name>raft</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\recorder.gif">
+      <Name>recorder</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\redcandle.gif">
+      <Name>redcandle</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\redpotion.gif">
+      <Name>redpotion</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\redring.gif">
+      <Name>redring</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\silverarrows.gif">
+      <Name>silverarrows</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\sword.gif">
+      <Name>sword</Name>
+    </Compile>
+    <Compile Include="Sprites\Items\whitesword.gif">
+      <Name>whitesword</Name>
+    </Compile>
+    <Compile Include="Sprites\Link %28Normal%29 %28Back%29.gif">
+      <Name>Link %28Normal%29 %28Back%29</Name>
+    </Compile>
+    <Compile Include="Sprites\Link-Left.png">
+      <Name>Link-Left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Link-Right.png">
+      <Name>Link-Right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Link-Up.png">
+      <Name>Link-Up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Link.gif">
+      <Name>Link</Name>
+    </Compile>
+    <Compile Include="Sprites\Link.PNG">
+      <Name>Link</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\LinkNormal%29 %28Left%29.gif">
+      <Name>LinkNormal%29 %28Left%29</Name>
+    </Compile>
+    <Compile Include="Sprites\Link\link_attack_down.bmp">
+      <Name>link_attack_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Link\link_attack_up.bmp">
+      <Name>link_attack_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\logo.gif">
+      <Name>logo</Name>
+    </Compile>
+    <Compile Include="Sprites\logo.png">
+      <Name>logo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\MapTiles\level_004.gif">
+      <Name>level_004</Name>
+    </Compile>
+    <Compile Include="Sprites\MapTiles\level_004.PNG">
+      <Name>level_004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\menu-old.png">
+      <Name>menu-old</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\menu.gif">
+      <Name>menu</Name>
+    </Compile>
+    <Compile Include="Sprites\menu.png">
+      <Name>menu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Projectiles\Fire.gif">
+      <Name>Fire</Name>
+    </Compile>
+    <Compile Include="Sprites\Projectiles\Fire.jpg">
+      <Name>Fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Projectiles\Fire.png">
+      <Name>Fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Projectiles\Fire.png">
+      <Name>Fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\font1.bmp">
+      <Name>font1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\SpriteFont1.spritefont">
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

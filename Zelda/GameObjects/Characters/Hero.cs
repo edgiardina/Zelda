@@ -88,7 +88,7 @@ namespace Test_Game.Characters
         {
             if (this.State == CharacterState.Attacking)
             {
-                SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+                SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
                 CurrentSprite.Draw(SpriteContainer, this.Position);
                 SpriteContainer.End();
             }
@@ -96,7 +96,7 @@ namespace Test_Game.Characters
             {
                 float pulsate = GetPulsingValue(gameTime);
                     //float pulsate = (float)Math.Sin(gameTime.TotalGameTime.TotalSeconds * 6) + 1;
-                SpriteContainer.Begin(SpriteBlendMode.AlphaBlend);
+                SpriteContainer.Begin(SpriteSortMode.BackToFront, BlendState.AlphaBlend);
                 CurrentSprite.Draw(SpriteContainer, this.Position, Color.Red, pulsate);
                 SpriteContainer.End();
             }

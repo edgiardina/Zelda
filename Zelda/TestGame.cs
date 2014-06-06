@@ -1,13 +1,9 @@
 
 #region Using Statements
-using System;
-using System.Collections.Generic;
+
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
@@ -44,7 +40,7 @@ namespace Test_Game
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            Music.Initialize();
+            //Music.Initialize();
             base.Initialize();
 
         }
@@ -85,7 +81,7 @@ namespace Test_Game
             CheckQuit();
 
             /* Update Game Objects */
-            Music.Update();
+            //Music.Update();
 
             //GamerServicesDispatcher.Update();
             base.Update(gameTime);

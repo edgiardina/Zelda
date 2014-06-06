@@ -28,7 +28,7 @@ namespace Test_Game
             this.TimeOfExistence = new TimeSpan(0, 0, 0, 0, 0);
             this.DamageFactor = 1;
             this.CurrentSprite = new Sprite(game.Content.Load<Texture2D>("Sprites\\Projectiles\\Fire"), 2, 32, 32);
-            Music.Play("Candle");
+            //Music.Play("Candle");
         }
 
 

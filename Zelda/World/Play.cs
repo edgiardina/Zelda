@@ -76,7 +76,7 @@ namespace Test_Game.World
 
             State = PlayState.Playing;
             
-            this.MusicManager = Music.Play("Overworld");    
+            //this.MusicManager = Music.Play("Overworld");    
             base.Initialize();
         }
 
@@ -319,7 +319,7 @@ namespace Test_Game.World
         private void RunDeadState()
         {
             
-            this.MusicManager.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
+            //this.MusicManager.Stop(Microsoft.Xna.Framework.Audio.AudioStopOptions.Immediate);
             //Cue Dead Music
 
             State = PlayState.Dead;
