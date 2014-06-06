@@ -1,0 +1,181 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{409AB221-1839-45B9-8C68-042223EFA502}</ProjectGuid>
+    <ProjectTypeGuids>{2DF5C3F4-5A5F-47a9-8E94-23B4456F55E2};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test_Game</RootNamespace>
+    <AssemblyName>Test Game</AssemblyName>
+    <XnaFrameworkVersion>v2.0</XnaFrameworkVersion>
+    <XnaPlatform>Xbox 360</XnaPlatform>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>
+    </Thumbnail>
+    <XnaCrossPlatformGroupID>{fed33c51-7198-4769-933b-d43d722e6a84}</XnaCrossPlatformGroupID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE;XBOX;XBOX360</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Xbox 360' ">
+    <OutputPath>bin\Xbox 360\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE;XBOX;XBOX360</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Audio\Music\Music.cs">
+      <Name>Music</Name>
+    </Compile>
+    <Compile Include="GameObjects\Characters\Character.cs">
+      <Name>Character</Name>
+    </Compile>
+    <Compile Include="GameObjects\Characters\Enemies\Enemy.cs">
+      <Name>Enemy</Name>
+    </Compile>
+    <Compile Include="GameObjects\GameObject.cs">
+      <Name>GameObject</Name>
+    </Compile>
+    <Compile Include="GameObjects\Characters\Hero.cs">
+      <Name>Hero</Name>
+    </Compile>
+    <Compile Include="GameObjects\Characters\Enemies\Octorok.cs">
+      <Name>Octorok</Name>
+    </Compile>
+    <Compile Include="GameObjects\Items\Weapons\BlueCandle.cs" />
+    <Compile Include="GameObjects\Projectiles\Flame.cs" />
+    <Compile Include="GameObjects\Projectiles\Projectile.cs">
+      <Name>Projectile</Name>
+    </Compile>
+    <Compile Include="Device\Controller.cs">
+      <Name>Controller</Name>
+    </Compile>
+    <Compile Include="Graphics\Sprite.cs">
+      <Name>Sprite</Name>
+    </Compile>
+    <Compile Include="GameObjects\Items\Item.cs">
+      <Name>Item</Name>
+    </Compile>
+    <Compile Include="GameObjects\Items\Weapons\Weapon.cs">
+      <Name>Weapon</Name>
+    </Compile>
+    <Compile Include="Menu\Status\HealthMeter.cs">
+      <Name>HealthMeter</Name>
+    </Compile>
+    <Compile Include="Menu\Status\StatusDisplay.cs">
+      <Name>StatusDisplay</Name>
+    </Compile>
+    <Compile Include="Physics\Collision.cs">
+      <Name>Collision</Name>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs">
+      <Name>Program</Name>
+    </Compile>
+    <Compile Include="TestGame.cs">
+      <Name>TestGame</Name>
+    </Compile>
+    <Compile Include="Menu\DeadMenu.cs">
+      <Name>DeadMenu</Name>
+    </Compile>
+    <Compile Include="Menu\MainMenu.cs">
+      <Name>MainMenu</Name>
+    </Compile>
+    <Compile Include="Menu\Menu.cs">
+      <Name>Menu</Name>
+    </Compile>
+    <Compile Include="Menu\MenuSaveGame.cs">
+      <Name>MenuSaveGame</Name>
+    </Compile>
+    <Compile Include="World\Play.cs">
+      <Name>Play</Name>
+    </Compile>
+    <Compile Include="World\ScreenTiles\BlueDungeonTile.cs" />
+    <Compile Include="World\View.cs">
+      <Name>View</Name>
+    </Compile>
+    <Compile Include="World\Screen.cs">
+      <Name>Screen</Name>
+    </Compile>
+    <Compile Include="World\ScreenTiles\ScreenTile.cs">
+      <Name>ScreenTile</Name>
+    </Compile>
+    <Compile Include="World\TitleScreen.cs">
+      <Name>TitleScreen</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico">
+      <Name>Game</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Audio\Music\Overworld.wav">
+      <Name>Overworld</Name>
+    </Content>
+    <Content Include="Audio\SoundFx\LOZ_Candle.wav" />
+    <Content Include="MapInfo.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <Name>app</Name>
+    </None>
+    <None Include="Audio\Music\Project\Win\Sound Bank.xsb">
+      <Name>Sound Bank</Name>
+    </None>
+    <None Include="Audio\Music\Project\Win\Wave Bank.xwb">
+      <Name>Wave Bank</Name>
+    </None>
+    <None Include="Audio\Music\Project\Win\zelda.xgs">
+      <Name>zelda</Name>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content.contentproj">
+      <Project>{df9b53aa-a5b6-424d-b0ca-5092b036217a}</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.NestedContent.targets" />
+</Project>

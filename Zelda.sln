@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelda", "Zelda\Zelda.csproj", "{1126B5BA-CDE2-45FC-83A3-9A115EB01750}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Debug|Xbox 360 = Debug|Xbox 360
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Release|Xbox 360 = Release|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Debug|x86.ActiveCfg = Debug|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Debug|x86.Build.0 = Debug|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Release|Mixed Platforms.Build.0 = Release|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Release|x86.ActiveCfg = Release|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Release|x86.Build.0 = Release|x86
+		{1126B5BA-CDE2-45FC-83A3-9A115EB01750}.Release|Xbox 360.ActiveCfg = Release|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Debug|x86.ActiveCfg = Debug|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Debug|Xbox 360.ActiveCfg = Debug|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Release|x86.ActiveCfg = Release|x86
+		{DF9B53AA-A5B6-424D-B0CA-5092B036217A}.Release|Xbox 360.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

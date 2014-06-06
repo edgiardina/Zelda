@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MapData FileName="Test">
+	<MapAreas>
+		<MapArea PositionX="0" PositionY="0">
+			<MapTiles>
+				<MapTile PositionX="0" PositionY="0" Class="BlueDungeonTile" />								
+								
+			</MapTiles>
+		</MapArea>	   		
+	</MapAreas>	
+</MapData>
