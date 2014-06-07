@@ -68,7 +68,7 @@ namespace Test_Game.Menu
         
         protected override void LoadContent()
         {
-            FadeTexture = new Texture2D(GraphicsDevice, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, true, SurfaceFormat.Color);
+            FadeTexture = new Texture2D(GraphicsDevice, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, false, SurfaceFormat.Color);
             int PixelCount = GraphicsDevice.Viewport.Width * GraphicsDevice.Viewport.Height;
             Color[] PixelData = new Color[PixelCount];
             //Random RndNum = new Random();

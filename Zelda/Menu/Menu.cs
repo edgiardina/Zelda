@@ -56,9 +56,8 @@ namespace Test_Game.Menus
         /// </summary>
         public override void Initialize()
         {
-            ContentManager content = new ContentManager(Game.Services);
             //Load Menu Fonts
-            MenuFont = content.Load<SpriteFont>("Fonts\\SpriteFont1");
+            MenuFont = Game.Content.Load<SpriteFont>("Fonts\\SpriteFont1");
             CursorSpring = new Test_Game.Physics.Spring();
             base.Initialize();
         }
@@ -86,8 +85,8 @@ namespace Test_Game.Menus
         {
             
             // TODO: Add your update code here
-            if (!Guide.IsVisible)
-            {
+            //if (!Guide.IsVisible)
+            //{
                 //get keyboard keys
                 if (TimeLastKeyPress.AddSeconds(.25) <= DateTime.Now)
                 {
@@ -131,7 +130,7 @@ namespace Test_Game.Menus
                 }               
                 
                 //CursorPosition = CurrentOption.Position;
-            }
+            //}
             base.Update(gameTime);
         }
 

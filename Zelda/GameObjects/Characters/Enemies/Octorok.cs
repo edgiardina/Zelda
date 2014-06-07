@@ -17,7 +17,7 @@ namespace Test_Game.Characters
             this.DamageFactor = 5;
             this.HitPoints = 10;       
             this.Speed = 1;
-            this.CurrentSprite = new Sprite(TestGame.ContentMgr.Load<Texture2D>("Sprites\\Enemies\\Octorok\\Octorok_down"), 2, 32, 32);          
+            this.CurrentSprite = new Sprite(this.game.Content.Load<Texture2D>("Sprites\\Enemies\\Octorok\\Octorok_down"), 2, 32, 32);          
 
         }
 
@@ -28,7 +28,7 @@ namespace Test_Game.Characters
             this.DamageFactor = 5;
             this.HitPoints = 10;
             this.Speed = 1;
-            this.CurrentSprite = new Sprite(TestGame.ContentMgr.Load<Texture2D>("Sprites\\Enemies\\Octorok\\Octorok_down"), 2, 32, 32);
+            this.CurrentSprite = new Sprite(this.game.Content.Load<Texture2D>("Sprites\\Enemies\\Octorok\\Octorok_down"), 2, 32, 32);
             this.Position = Position;
         }
 

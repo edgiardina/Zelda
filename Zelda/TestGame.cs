@@ -24,11 +24,9 @@ namespace Test_Game
             //Set Window size to be NES resolution x 2 (since all textures are already scaled)
             graphics.PreferredBackBufferHeight = 720; // 448;
             graphics.PreferredBackBufferWidth = 1280; //512;
-           
-            content = new ContentManager(Services);
-           
+
             LoadGame();
-            Components.Add(new GamerServicesComponent(this));
+            //Components.Add(new GamerServicesComponent(this));
         }
 
         /// <summary>
@@ -53,7 +51,7 @@ namespace Test_Game
         /// <param name="">Which type of content to load.</param>
         protected override void LoadContent()
         {
-           
+
         }
 
 
@@ -66,7 +64,7 @@ namespace Test_Game
         /// <param name="un">Which type of content to unload.</param>
         protected override void UnloadContent()
         {
-            content.Unload();
+            this.Content.Unload();
         }
 
 
@@ -123,14 +121,6 @@ namespace Test_Game
             //listens for movement to other screens, accessing its parents class components and 
             //pushing/popping them on/off the stack as needed.
             this.Components.Add(new TitleScreen(this));
-        }
-
-        /// <summary>
-        /// Content Manager Singleton
-        /// </summary>
-        public static ContentManager ContentMgr
-        {
-            get { return content as ContentManager; }
         }
 
     }

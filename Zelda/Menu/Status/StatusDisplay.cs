@@ -40,8 +40,7 @@ namespace Test_Game.Menus
         public override void Draw(GameTime gameTime)
         {
             SpriteContainer.Begin();
-            ContentManager content = new ContentManager(Game.Services);
-            Font1 = content.Load<SpriteFont>("Fonts\\SpriteFont1");
+            Font1 = Game.Content.Load<SpriteFont>("Fonts\\SpriteFont1");
             SpriteContainer.DrawString(Font1, "- LIFE -", new Vector2(368, 30), Color.Red);
             SpriteContainer.End();
             base.Draw(gameTime);

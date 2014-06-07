@@ -98,11 +98,11 @@
       <Name>bracelet</Name>
       <Importer>TextureImporter</Importer>
     </None>
-    <None Include="Sprites\Items\heart.png">
+    <Compile Include="Sprites\Items\heart.png">
       <Name>heart</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
-    </None>
+    </Compile>
     <None Include="Sprites\Items\heartcontainer.gif">
       <Name>heartcontainer</Name>
       <Importer>TextureImporter</Importer>
